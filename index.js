@@ -1,5 +1,5 @@
 var through = require('through2'),
-  gutil = require('gulp-util'),
+  PluginError = require('plugin-error'),
   coveralls = require('coveralls');
 
 module.exports = function() {
@@ -8,7 +8,7 @@ module.exports = function() {
 
     function handleError(done, err) {
       if (err){
-        stream.emit('error', new gutil.PluginError('gulp-coveralls', err));
+        stream.emit('error', new PluginError('gulp-coveralls', err));
         done();
       }
     }
@@ -40,7 +40,7 @@ module.exports = function() {
     }
 
     if (file.isStream()) {
-      this.emit('error', new gutil.PluginError('gulp-coveralls', 'Stream content is not supported'));
+      this.emit('error', new PluginError('gulp-coveralls', 'Stream content is not supported'));
       return callback();
     }
 

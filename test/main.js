@@ -11,14 +11,14 @@ require("mocha");
 
 delete require.cache[require.resolve("../")];
 
-var gutil = require("gulp-util"),
+var Vinyl = require('vinyl'),
   gulpCoveralls = require("../");
 
 describe("gulp-coveralls", function () {
 
   var convertedFile = 'CONVERTED';
 
-  var expectedFile = new gutil.File({
+  var expectedFile = new Vinyl({
     path: "test/expected/lcov.info",
     cwd: "test/",
     base: "test/expected",
@@ -42,7 +42,7 @@ describe("gulp-coveralls", function () {
 
     it("should pass the file through via buffer", function (done) {
 
-      var srcFile = new gutil.File({
+      var srcFile = new Vinyl({
         path: "test/fixtures/lcov.info",
         cwd: "test/",
         base: "test/fixtures",
@@ -71,7 +71,7 @@ describe("gulp-coveralls", function () {
 
     it("should send the file contents to Coveralls", function (done) {
 
-      var srcFile = new gutil.File({
+      var srcFile = new Vinyl({
         path: "test/fixtures/lcov.info",
         cwd: "test/",
         base: "test/fixtures",
@@ -109,7 +109,7 @@ describe("gulp-coveralls", function () {
 
     it("should emit an error", function (done) {
 
-      var srcFile = new gutil.File({
+      var srcFile = new Vinyl({
         path: "test/fixtures/lcov.info",
         cwd: "test/",
         base: "test/fixtures",
@@ -140,7 +140,7 @@ describe("gulp-coveralls", function () {
     });
 
     it("should pass the file through when null", function(done) {
-      var nullFile = new gutil.File();
+      var nullFile = new Vinyl();
 
       var stream = gulpCoveralls();
 
@@ -162,7 +162,7 @@ describe("gulp-coveralls", function () {
 
     it("should error on stream", function (done) {
 
-      var srcFile = new gutil.File({
+      var srcFile = new Vinyl({
         path: "test/fixtures/lcov.info",
         cwd: "test/",
         base: "test/fixtures",
