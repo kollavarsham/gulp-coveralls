@@ -25,14 +25,14 @@ gulp.src('test/coverage/**/lcov.info')
 
 [MIT License](https://kollavarsham.org/LICENSE.txt) ([Original License](http://markdalgleish.mit-license.org))
 
-[npm-url]: https://npmjs.org/package/gulp-coveralls
-[npm-image]: https://img.shields.io/npm/v/gulp-coveralls.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@kollavarsham/gulp-coveralls
+[npm-image]: https://img.shields.io/npm/v/@kollavarsham/gulp-coveralls.svg?style=flat-square
 
-[travis-url]: http://travis-ci.org/markdalgleish/gulp-coveralls
-[travis-image]: https://img.shields.io/travis/markdalgleish/gulp-coveralls/master.svg?style=flat-square
+[travis-url]: http://travis-ci.org/kollavarsham/gulp-coveralls
+[travis-image]: https://img.shields.io/travis/kollavarsham/gulp-coveralls/master.svg?style=flat-square
 
-[coveralls-url]: https://coveralls.io/r/markdalgleish/gulp-coveralls
-[coveralls-image]: https://img.shields.io/coveralls/markdalgleish/gulp-coveralls/master.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/kollavarsham/gulp-coveralls
+[coveralls-image]: https://img.shields.io/coveralls/kollavarsham/gulp-coveralls/master.svg?style=flat-square
 
-[depstat-url]: https://david-dm.org/markdalgleish/gulp-coveralls
-[depstat-image]: https://img.shields.io/david/markdalgleish/gulp-coveralls/master.svg?style=flat-square
+[depstat-url]: https://david-dm.org/kollavarsham/gulp-coveralls
+[depstat-image]: https://img.shields.io/david/kollavarsham/gulp-coveralls/master.svg?style=flat-square
