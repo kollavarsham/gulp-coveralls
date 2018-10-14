@@ -1,8 +1,8 @@
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependency Status][depstat-image]][depstat-url]
 
-# gulp-coveralls
+# gulp-coveralls-2
 
-[Gulp](https://github.com/wearefractal/gulp) plugin to submit code coverage to [Coveralls](http://coveralls.io).
+[Gulp](https://github.com/wearefractal/gulp) plugin to submit code coverage to [Coveralls](http://coveralls.io). (Forked of the unmaintained [gulp-coveralls](https://github.com/markdalgleish/gulp-coveralls) - thank you, [@markdalgleish](https://github.com/markdalgleish))
 
 ## Usage
 
