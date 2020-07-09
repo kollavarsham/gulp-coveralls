@@ -3,3 +3,4 @@ node_modules/
 temp/
 coverage
 .coveralls.yml
+.nyc_output/
