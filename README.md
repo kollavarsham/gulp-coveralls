@@ -1,4 +1,4 @@
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependency Status][depstat-image]][depstat-url]
+[![NPM version][npm-image]][npm-url] [![ci_cd][gh-action-image]][gh-action-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependency Status][depstat-image]][depstat-url]
 
 # @kollavarsham/gulp-coveralls
 
@@ -28,11 +28,11 @@ gulp.src('test/coverage/**/lcov.info')
 [npm-url]: https://www.npmjs.com/package/@kollavarsham/gulp-coveralls
 [npm-image]: https://img.shields.io/npm/v/@kollavarsham/gulp-coveralls.svg?style=flat-square
 
-[travis-url]: http://travis-ci.org/kollavarsham/gulp-coveralls
-[travis-image]: https://img.shields.io/travis/kollavarsham/gulp-coveralls/main.svg?style=flat-square
+[gh-action-url]: https://github.com/kollavarsham/gulp-coveralls/actions/workflows/ci.yml
+[gh-action-image]: https://github.com/kollavarsham/gulp-coveralls/actions/workflows/ci.yml/badge.svg
 
 [coveralls-url]: https://coveralls.io/r/kollavarsham/gulp-coveralls
 [coveralls-image]: https://img.shields.io/coveralls/kollavarsham/gulp-coveralls/main.svg?style=flat-square
 
 [depstat-url]: https://david-dm.org/kollavarsham/gulp-coveralls
-[depstat-image]: https://img.shields.io/david/kollavarsham/gulp-coveralls/main.svg?style=flat-square
+[depstat-image]: https://status.david-dm.org/gh/kollavarsham/gulp-coveralls.svg

@@ -37,7 +37,7 @@ jobs:
 
       - name: Coveralls
         uses: coverallsapp/github-action@master
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main' && matrix.node-version == '16.x'
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           path-to-lcov: coverage/lcov.info
