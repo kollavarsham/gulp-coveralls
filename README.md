@@ -29,10 +29,10 @@ gulp.src('test/coverage/**/lcov.info')
 [npm-image]: https://img.shields.io/npm/v/@kollavarsham/gulp-coveralls.svg?style=flat-square
 
 [travis-url]: http://travis-ci.org/kollavarsham/gulp-coveralls
-[travis-image]: https://img.shields.io/travis/kollavarsham/gulp-coveralls/master.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/kollavarsham/gulp-coveralls/main.svg?style=flat-square
 
 [coveralls-url]: https://coveralls.io/r/kollavarsham/gulp-coveralls
-[coveralls-image]: https://img.shields.io/coveralls/kollavarsham/gulp-coveralls/master.svg?style=flat-square
+[coveralls-image]: https://img.shields.io/coveralls/kollavarsham/gulp-coveralls/main.svg?style=flat-square
 
 [depstat-url]: https://david-dm.org/kollavarsham/gulp-coveralls
-[depstat-image]: https://img.shields.io/david/kollavarsham/gulp-coveralls/master.svg?style=flat-square
+[depstat-image]: https://img.shields.io/david/kollavarsham/gulp-coveralls/main.svg?style=flat-square
