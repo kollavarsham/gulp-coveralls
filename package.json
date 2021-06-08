@@ -17,7 +17,7 @@
     "url": "git://github.com/kollavarsham/gulp-coveralls.git"
   },
   "scripts": {
-    "test": "jshint index.js && nyc mocha --report lcov -- -R spec",
+    "test": "jshint index.js && nyc --reporter=lcov mocha --report lcov -- -R spec",
     "coveralls": "nyc mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info && gulp coveralls && rm -rf ./coverage"
   },
   "files": [
